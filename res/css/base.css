@@ -1,0 +1,125 @@
+/*:root {
+    box-sizing: border-box;
+    --blue-color: #5c84ec;
+    --aqua-color: #e3f7f9;
+}
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+*/
+body {
+    font-family: sans-serif, cursive;
+    background: #f9fbff;
+    
+}
+main {
+    height: 100vh;
+}
+h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    
+}
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+a {
+    font-size: 1rem;
+    color: #fff;
+    
+}
+.mt-100 {
+    margin-top: 100px;
+    
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+/* navigation section */
+nav {
+    background: #fff;
+}
+nav .nav-item .nav-link {
+    margin: 0 10px;
+    color:rgba(0,0,0,0.7);
+}
+nav.stickyadd .active {
+    border-bottom: 1.5px solid #fff;
+}
+nav.stickyadd {
+    background-color: rgba(0,0,0,0.9);
+    transition: all 0.5s;
+    
+}
+
+nav.stickyadd .nav-item .nav-link {
+    color: rgba(255,255,255,0.9);
+}
+nav.stickyadd .navbar-brand {
+    color: rgba(255,255,255,0.9);
+}
+nav.stick {
+     transition: all 0.5s;
+}
+.hamburger {
+    color: #000;
+    font-size: 1.5rem;
+}
+.hamburger.whenscrolled {
+    color: #fff;
+}
+/* dropdown menu bar styling */
+.sub-nav1 {
+    display: none;
+}
+.main-nav ul li:hover .sub-nav1{
+    display: block;
+    position: absolute;
+    background-color: rgba(0,0,100,0.6);
+    
+}
+.main-nav ul li:hover .sub-nav1 ul li {
+    display: block;
+    color: #fff;
+    text-align:left;
+    
+}
+.main-nav ul li:hover .sub-nav1 ul li a {
+    text-decoration: none;
+}
+.sub-nav1.whenscrolled {
+    color: #fff;
+}
+.sub-nav2 {
+    display:none;
+}
+.hover-me:hover .sub-nav2 {
+    position: absolute;
+    display: block;
+    margin-top: -45px;
+    margin-left: 289px;
+    background-color: rgba(0,0,100,0.5);
+}
+
+.transparent {
+    background-color: transparent;
+}
+.error {
+    color: rgb(200, 0, 0);
+    font-weight: bold;
+}
+p.success {
+    font-weight: 700;
+    color: rgb(0, 220, 0)!important;
+    margin-top: 10px;
+}
+

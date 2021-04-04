@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: rgba(0, 0, 120, 0.3)!important;
+    min-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+div {
+    display: block;
+}
+.container {
+    width: 100%;
+}
+ul {
+    text-align: center;
+    margin-left: 1rem;
+}
+ul li {
+    padding: 0.5rem;
+    display: inline;
+
+}
+ul li a {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../img/bg-cover.jpg);
+    background-size: cover;
+}
+/* collections styling */
+
+.collections {
+    font-size: 17px;
+    font-weight: 700;
+    color: #4a4848;
+    
+    
+}
+.collections .new-file {
+    color: #777272;
+    font-weight: 400;
+    
+    
+}
+.new-file ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+    
+    
+}
+
+.new-file ul .file{
+    background-color: rgba(204,204,204,0.2);
+    border-radius: 5px;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.new-file ul li .file a {
+    text-align: left;
+    color: rgba(40,10,150,0.4);
+    text-decoration: none!important;
+    
+}
+
+form#search {
+    padding: 0.2rem;
+    margin-left: auto;
+}
+form#search span i {
+    z-index: 99;
+    position: absolute;
+    right: 0.4rem;
+    top: 50%;
+    margin-top: -0.44em;
+}
+form#search .input-group .form-control {
+    border-radius: 0.5em;
+}
+.upload_file {
+    padding-top: 150px;
+    height: 100vh;
+    margin-left: 2rem;
+    text-align:left;
+}
+.upload_file label {
+    padding-right: 2px;
+}
+
+.downloads_main {
+    padding-top: 100px;
+}
+
+ul.block li {
+display: block;
+}
+
+/*footer styling*/
+footer {
+    background-color: #191919;
+    color: #ADADAD;
+    margin-top: 3em;
+    text-align: center;
+    
+}
+footer img {
+    margin-top: 2rem;
+}
+footer .p {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+footer h5 {
+    margin-top: 2.5rem;
+    font-weight: bold;
+    
+}
+footer form {
+    margin-top: 1.5rem;
+}
+
+footer ul {
+    margin-bottom: 3rem;
+    
+}
+
+footer a {
+    font-weight: 300;
+    color: rgba(30, 169, 250, 0.6);
+}
+footer a:hover {
+    text-decoration: none;
+    color: #16f00b;
+}
+
+footer p {
+    color: #fff!important;
+    text-align: center;
+    font-size: 12px;
+}
+footer p small a {
+    font-size: 9px;
+    color: blue;
+}
